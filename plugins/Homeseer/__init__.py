@@ -18,7 +18,10 @@
 # You should have received a copy of the GNU General Public License along
 # with EventGhost. If not, see <http://www.gnu.org/licenses/>.
 
-eg.RegisterPlugin(
+from eg.Core import RegisterPlugin
+
+
+RegisterPlugin(
     name = "Homeseer",
     guid = '{3B51BC0D-A030-4BF1-9E54-EBC3C236F582}',
     author = (

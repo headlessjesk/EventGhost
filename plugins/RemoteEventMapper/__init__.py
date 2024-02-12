@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
+ -*- coding: utf-8 -*-
 
 version="0.0.1"
 
-# plugins/RemoteEventMapper/__init__.py
-#
-# Copyright (C)  2010 Pako  (lubos.ruckl@quick.cz)
-#
+ plugins/RemoteEventMapper/__init__.py
+
+ Copyright (C)  2010 Pako  (lubos.ruckl@quick.cz)
+
 # This file is a plugin for EventGhost.
 # Copyright © 2005-2020 EventGhost Project <http://www.eventghost.net/>
 #
@@ -22,13 +22,13 @@ version="0.0.1"
 # You should have received a copy of the GNU General Public License along
 # with EventGhost. If not, see <http://www.gnu.org/licenses/>.
 #
-# Revision history:
-# -----------------
-# 0.0.1 by Pako 2010-11-27 10:15 GMT+1
-#     - forum url updated
-# 0.0.0 by Pako 2010-11-27 10:15 GMT+1
-#     - initial version
-#===============================================================================
+ Revision history:
+ -----------------
+ 0.0.1 by Pako 2010-11-27 10:15 GMT+1
+     - forum url updated
+ 0.0.0 by Pako 2010-11-27 10:15 GMT+1
+     - initial version
+===============================================================================
 
 from os import path
 if eg.Version.base >= "0.4.0":
