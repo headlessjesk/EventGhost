@@ -1,4 +1,4 @@
-## [0.5.0-rc6](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc6) (2018-12-24)
+`## [0.5.0-rc6](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc6) (2018-12-24)`
 
 **Enhancements:**
 
@@ -8,7 +8,6 @@
 
 * \[SchedulGhost\] fix setting the repeat intervall [\#337](https://github.com/EventGhost/EventGhost/pull/337) ([topic2k](https://github.com/topic2k))
 * Fixes restart & plugin install [\#340](https://github.com/EventGhost/EventGhost/pull/340) ([kdschlosser](https://github.com/kdschlosser))
-
 
 ## [0.5.0-rc5](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc5) (2018-11-25)
 
@@ -42,13 +41,12 @@
 * Disable the OK button in configure dialogs on first appearance [\#267](https://github.com/EventGhost/EventGhost/pull/267) ([kdschlosser](https://github.com/kdschlosser))
 * Remove obsolete COMServer [\#317](https://github.com/EventGhost/EventGhost/pull/317) ([kdschlosser](https://github.com/kdschlosser))
 
-
 ## [0.5.0-rc4](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc4) (2017-07-16)
 
 **Enhancements:**
 
 * Changes XmlIdLink to eg.GUID \(see comment for more info\) [\#264](https://github.com/EventGhost/EventGhost/pull/264) ([kdschlosser](https://github.com/kdschlosser))
-  
+
   The use of XmlId made it difficult to share code that used 'Enable/Disable Action' or 'Exlusive Enable' (and others). Now with the use of GUID's this hurdle is gone.
 
   To turn it on you would open the add plugin dialog and left click once in the upper right hand corner of the dialog (client area) and then click once in the lower left hand corner of the dialog (client area). There is a 20x20 pixel target for each of the spots so the chance of someone doing this accidentally is probably not going to happen. But in the event it does, a message box asking if you want to enable or disable it pops up.
@@ -68,7 +66,6 @@
 **Other changes:**
 
 * \[XBMC2\] update plugin to 0.6.33 [\#259](https://github.com/EventGhost/EventGhost/pull/259) ([topic2k](https://github.com/topic2k))
-
 
 ## [0.5.0-rc3](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc3) (2017-07-03)
 
@@ -95,13 +92,11 @@
 
 * Remove wiki content from documentation [\#234](https://github.com/EventGhost/EventGhost/pull/234) ([per1234](https://github.com/per1234))
 
-
 ## [0.5.0-rc2](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc2) (2017-04-20)
 
 **Fixed bugs:**
 
 * Fixes incorrect replacement usage of IsVista\(\) and IsXP\(\) [\#221](https://github.com/EventGhost/EventGhost/pull/221) ([kdschlosser](https://github.com/kdschlosser))
-
 
 ## [0.5.0-rc1](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-rc1) (2017-04-16)
 
@@ -126,7 +121,6 @@
 **Other changes:**
 
 * \[System\] Removes disabling of widgets if extension not in %PATHEXT% [\#189](https://github.com/EventGhost/EventGhost/pull/189) ([kdschlosser](https://github.com/kdschlosser))
-
 
 ## [0.5.0-beta6](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-beta6) (2017-02-12)
 
@@ -159,7 +153,6 @@
 * \[Remote Event Mapper\] Fix rendering of reStructuredText in description [\#170](https://github.com/EventGhost/EventGhost/pull/170) ([per1234](https://github.com/per1234))
 * Change "Search our issue tracker" link to also show closed issues and PRs [\#173](https://github.com/EventGhost/EventGhost/pull/173) ([per1234](https://github.com/per1234))
 
-
 ## [0.5.0-beta5](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-beta5) (2016-12-24)
 
 **Enhancements:**
@@ -177,7 +170,6 @@
 * \[Broadcaster\] fix Unicode encoding and decoding [\#122](https://github.com/EventGhost/EventGhost/pull/122) ([david-mark](https://github.com/david-mark))
 * Fix typo in build warning message [\#135](https://github.com/EventGhost/EventGhost/pull/135) ([per1234](https://github.com/per1234))
 
-
 ## [0.5.0-beta4](https://github.com/blackwind/EventGhost/releases/tag/v0.5.0-beta4) (2016-09-14)
 
 **Enhancements:**
@@ -192,7 +184,6 @@
 * Open plugin installer even if program isn't running [\#104](https://github.com/EventGhost/EventGhost/pull/104) ([blackwind](https://github.com/blackwind))
 * \[Window\] Prevent random traceback on Grab Text Item\(s\) action [\#105](https://github.com/EventGhost/EventGhost/pull/105) ([blackwind](https://github.com/blackwind))
 
-
 ## [0.5.0-beta3](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-beta3) (2016-08-16)
 
 **Fixed bugs:**
@@ -201,7 +192,6 @@
 * Gracefully handle all possible plugin load errors [\#94](https://github.com/EventGhost/EventGhost/pull/94) ([blackwind](https://github.com/blackwind))
 * Continue setup only if user data can be backed up [\#95](https://github.com/EventGhost/EventGhost/pull/95) ([blackwind](https://github.com/blackwind))
 
-
 ## [0.5.0-beta2](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-beta2) (2016-08-14)
 
 **Fixed bugs:**
@@ -209,7 +199,6 @@
 * Show update notification for new releases only [\#81](https://github.com/EventGhost/EventGhost/pull/81) ([blackwind](https://github.com/blackwind))
 * Change directory to `eg.configDir` only if it exists [\#86](https://github.com/EventGhost/EventGhost/pull/86) ([blackwind](https://github.com/blackwind))
 * Prevent hang on system resume when `eg.app.Restart()` is called [\#87](https://github.com/EventGhost/EventGhost/pull/87) ([blackwind](https://github.com/blackwind))
-
 
 ## [0.5.0-beta1](https://github.com/EventGhost/EventGhost/releases/tag/v0.5.0-beta1) (2016-08-12)
 
